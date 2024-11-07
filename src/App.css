@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menubar {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+}
+
+.food-logo-name {
+  color: yellow;
+  position: relative;
+  font-size: 25px;
+  top: 18px;
+  left: 20px;
+}
+
+.flex-container {
+  display: flex;
+  margin-left: 650px;
+}
+
+.food-logo-img {
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.menuBarName {
+  display: inline;
+  color: orange;
+  margin-left: 70px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+div.a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.bg-container-food-img {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(../public/img/overallfood1.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.fast-food-restaurant {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-family: 'Dancing Script';
+  font-size: 80px;
+}
+
+.home-description {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.order-now {
+  background-color: yellow;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-width: 0px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.restaurant-home-content {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+}
+
+.our-menu {
+  margin: 25px;
+  text-align: center;
+  font-family: 'Courier New';
+}
+
+.pizza-img {
+  height: 200px;
+  width: 200px;
+  padding: 16px;
+
+}
+
+.bg-container-description {
+  background-color: rgba(4, 9, 30, 0.9);
+  width: 300px;
+  text-align: center;
+}
+
+.delicious {
+  color: white;
+}
+
+.menuBar-bg-container-card {
+  background-color: #f1f2f3;
+  text-align: center;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.bg-card-container {
+  margin-bottom: 30px;
+  margin-right: 20px
+}
+
+.first-part-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-us {
+  color: white;
+  font-family: 'Segoe UI';
+  margin-bottom: 16px;
+}
+
+.location {
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+.call {
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+.mail {
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+.bg-image-about {
+  background-color: #222831;
+}
+
+.about-img {
+  height: 600px;
+  margin: 25px;
+  padding-top: 40px;
+  border-radius: 16px;
+}
+
+.about-card-contain {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us1 {
+  background-color: yellow;
+  border-radius: 8px;
+  padding: 5px;
+  border-width: 0px;
+}
+
+.about-card-container-description {
+  margin-top: 300px;
+}
+
+.book-a-table {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 40px;
+}
+
+.bookingtable {
+  text-align: center;
+}
+
+.text-content {
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 8px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+
+.book-now-button {
+  background-color: yellow;
+  border-radius: 8px;
+  padding: 8px;
+  border-width: 0px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.contactus {
+  background-color: #222831;
+  width: 100%;
+  margin-top: 30px;
+  height: 200px;
+}
+
+.contactus-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactus-content-card {
+  margin-right: 20px;
+}
+
+.social-img {
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 30%;
+}
